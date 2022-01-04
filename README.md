@@ -11,6 +11,13 @@
 
  This is also for me to get a brief idea for my first semester maths project which is on precision farming. I will add the link to the repository here. 
 
- Reference and data set used : 
- https://www.kaggle.com/patelris/crop-prediction-analysis-w-classification
+
+
+
+
+ Reference : 
+
+ https://www.kaggle.com/patelris/crop-prediction-analysis-w-classification 
+
  https://www.kaggle.com/atharvaingle/crop-recommendation-dataset
+
