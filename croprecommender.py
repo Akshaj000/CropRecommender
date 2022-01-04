@@ -7,21 +7,18 @@ import pyinputplus as pyip
 
 cropdata = pd.read_csv("Crop_recommendation.csv")
 crop_summary = pd.pivot_table(cropdata,index=['label'],aggfunc='mean')
-print()
-print("CROP MEAN CHART")
-print()
+print("--------------------------------------------------------------------------------------------------------------------")
+print("CROP MEAN CHART ( Best Features required for each crops. )")
+print("--------------------------------------------------------------------------------------------------------------------")
 print(crop_summary)
-
-
+print("--------------------------------------------------------------------------------------------------------------------")
 print('''
-This program gives the most suitable crop from 
-'rice' 'maize' 'chickpea' 'kidneybeans' 'pigeonpeas' 'mothbeans' 'mungbean' 
-'blackgram' 'lentil' 'pomegranate' 'banana' 'mango' 'grapes''watermelon' 
-'muskmelon' 'apple' 'orange' 'papaya' 'coconut' 'cotton''jute' 'coffee' 
-based on the given features i.e. N, P, K, Temperature, Humidity, pH, Rainfall
+This program gives the most suitable crop from 'rice' 'maize' 'chickpea' 'kidneybeans' 'pigeonpeas' 'mothbeans' 'mungbean' 
+'blackgram' 'lentil' 'pomegranate' 'banana' 'mango' 'grapes''watermelon' 'muskmelon' 'apple' 'orange' 'papaya' 'coconut' 
+'cotton''jute' 'coffee' based on the given features i.e. N, P, K, Temperature, Humidity, pH, Rainfall
 ''')
 print()
-print("Enter Features")
+print("Enter Features : ")
 Ka = pyip.inputInt("K : ")
 Ni = pyip.inputInt("N : ")
 Po = pyip.inputInt("P : ")
@@ -31,7 +28,7 @@ rainfall = pyip.inputFloat("Rainfall : ")
 temperature = pyip.inputFloat("Temperature : ")
 
 
-print()
+print("--------------------------------------------------------------------------------------------------------------------")
 print("Using random forest")
 print()
 print("Training from Crop_recommendation.csv")
@@ -51,4 +48,4 @@ print()
 predicted_value = RF.predict(x_test)
 print("Best crop Suitable for this condition is : ",predicted_value[0])
 
-print()
+print("--------------------------------------------------------------------------------------------------------------------")
