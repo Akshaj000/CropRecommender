@@ -161,7 +161,7 @@ Naive Bayes has high bias but it has low variance.
 ---
 ---
 
-### Gaussian naive bayes 
+## Gaussian naive bayes 
 
 Reference ->https://youtu.be/H3EjCKtlVog
 
