@@ -168,7 +168,9 @@ Reference ->https://youtu.be/H3EjCKtlVog
 ---
 
 
-Imagine we wanted to predict if someone would love the 1990 movie Troll 2 or not.
+### Imagine we wanted to predict if someone would love the 1990 movie Troll 2 or not.
+
+---
 
 We collected data from people who loves troll two and from people who doest love troll 2.
 
