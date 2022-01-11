@@ -257,3 +257,7 @@ And since the score for Does not love troll 2 is greater than the score for love
 
 When we look at the raw data, it almost looks like we should have classified this person as someone who Loves Troll 2. After all they ate more popcorn than the average person who does not love troll 2 and they drank as much soda as the average person who Loves Troll 2. However they ate lot more candy than the people who Loved Troll 2 and the log of the likelihoods for candy are way too different. And this difference is what made us classify the new person as someone who Does Not lovve troll 2. In other words, candy can have a much larger say in whether or not someone Loves Troll 2 than popcorn and soda pop. And this mean we only need candy to make classifications. 
 We can use Cross Validation to help us decide which things help us make the best classification.
+
+---
+
+---
