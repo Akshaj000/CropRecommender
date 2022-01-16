@@ -15,6 +15,7 @@ We could try to make it easier to see hidden measurements by stacking any that a
 <img src="./resources/Screenshot-10.png" alt="Gaussian Naive Bayes -1" width=457px>
 
 This is a histogram. The taller the  stack within a bin, the more measurements we made that fall into that bin.
+
 <img src="./resources/Screenshot-11.png" alt="Gaussian Naive Bayes -1" width=457px>
 
 ---
