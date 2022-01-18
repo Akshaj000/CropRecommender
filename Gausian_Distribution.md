@@ -92,6 +92,9 @@ Histogram represents every liver cell, or all the grocery stores in a specific c
 We almost always estimate the population parameters using relatively small sample. In this case, we have measurements from only 5 of the 240 billion cells so we will use these 5 measurements to estimate the population parameters. The reason why we want to know the population parameters is to ensure that the results drawn from our experiment are reproducible. In other words, if someone else measured Gene X in 5 different liver cells then they get five different measurements. However, the new measurements  will come from the same population and insights derived from the population, like the probability of observing more that 30 mRNA transcripts in a single cell, will apply to both experiments or any future experiments. So instead of just describing  the 5 measurements that we made, we want to estimate the population parameters and use those as the basis for the results.
 It might be helpful to think these 5 measurements as the training data set and the curve that represents the population is what we want to predict.
 
+<img src="./resources/Screenshot-17.png" alt="Gaussian Naive Bayes -1" width=457px>
+
+The more data that we have, the more confidence we can have in accuracy of the estimates. One of the main goals in statistics is how much confidence we can have in population estimates. Statisticians always calculate p-values and confidence intervals to quantify the confidence in the estimated parameters.
 
 
 ---
@@ -99,5 +102,28 @@ It might be helpful to think these 5 measurements as the training data set and t
 # Statistics Fundamentals - Estimating the Mean, Variance and Standard Deviation.
 
 reference - https://youtu.be/SzZ6GpcfoQY
+
+---
+
+If we want to fit a normal curve to a histogram then we need to calculate the population mean and the population variance, or population variance, or population standard deviation.
+
+Population mean(myu) = average of all the measurements.
+
+Estimate population mean (sample mean(x bar)) =  average of the measuremnts collected.
+
+with more and more data estimated population mean gets closer and closer to the population mean.
+
+To determine how wide to make the curve by calculating the variance and standard deviation.
+
+<img src="./resources/Screenshot-18.png" alt="Gaussian Naive Bayes -1" width=150px>
+<img src="./resources/Screenshot-19.png" alt="Gaussian Naive Bayes -1" width=250px>
+
+Instead if we estimated the population variance  and population standard deviation from the relatively small number of measurements that we have.
+
+<img src="./resources/Screenshot-20.png" alt="Gaussian Naive Bayes -1" width=150px>
+
+<img src="./resources/Screenshot-21.png" alt="Gaussian Naive Bayes -1" width=450px>
+
+
 
 ---
