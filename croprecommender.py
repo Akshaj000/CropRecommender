@@ -32,7 +32,6 @@ temperature = pyip.inputFloat("Temperature : ")
 features = cropdata[['N', 'P','K','temperature', 'humidity', 'ph', 'rainfall']]
 target = cropdata['label']
 x_test = [[ Ni, Po,Ka,temperature, humidity, ph, rainfall]]
-print(x_test)
 
 print("--------------------------------------------------------------------------------------------------------------------")
 print("Using random forest")
