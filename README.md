@@ -18,7 +18,7 @@ https://www.kaggle.com/atharvaingle/crop-recommendation-dataset
 
 ---
 
-Also i have managed to make a mini naive bayes algorithm from scratch [here](https://github.com/Akshaj000/NaiveBayesClassifier_CropRecommender/blob/master/CustomNaiveBayesbook.ipynb).
+Also i have managed to make a mini naive bayes algorithm from scratch [here](https://github.com/Akshaj000/NaiveBayesClassifier_CropRecommender/tree/master/Custom%20Naive%20Bayes).
 
 
 ---
