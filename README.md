@@ -13,7 +13,7 @@ Targets : rice, maize, chickpea, kidneybeans, pigeonpeas, mothbeans, mungbean, b
 Features : N, P, K, temperature, Humidity, pH and  rainfall. 
 
 
-This is also for me to get a brief idea for my first semester maths project which is on precision farming. I will add the link to the repository here. 
+This is also for me to get a brief idea for my first semester maths project which is on precision farming -> https://github.com/ronakdudhani/CropRecommender .
 
 
 Reference : 
