@@ -1,4 +1,9 @@
 # CROP RECOMMENDER
+---
+
+<img src="./GNB.jpg" >
+
+---
 
 This repository is for me to get familar with the implementation part of machine learning algorithms.
 Here the program predicts the most suitable crop from the targets specified based on the features.
@@ -13,6 +18,7 @@ This is also for me to get a brief idea for my first semester maths project whic
 
 Reference : 
 
+https://www.askpython.com/python/normal-distribution \
 https://www.kaggle.com/patelris/crop-prediction-analysis-w-classification \
 https://www.kaggle.com/atharvaingle/crop-recommendation-dataset
 
@@ -22,3 +28,4 @@ Also i have managed to make a mini naive bayes algorithm from scratch [here](htt
 
 
 ---
+
