@@ -10,14 +10,6 @@ def calculate_probability(x, mean, stdev):
     exponent = exp(-((x-mean)**2 / (2 * stdev**2 )))
     return (1 / (sqrt(2 * pi) * stdev)) * exponent
 
-# def mean(numbers):
-#     return sum(numbers)/float(len(numbers))
- 
-# def stdev(numbers):
-#     avg = mean(numbers)
-#     variance = sum([(x-avg)**2 for x in numbers]) / float(len(numbers)-1)
-#     return sqrt(variance)
-
 read = pd.read_csv("Crop_recommendation.csv")
 
 N = float(input("N : "))
@@ -53,8 +45,6 @@ for i in read['label'].unique():
         x_axis = np.asarray(list)
         mean = statistics.mean(x_axis)
         sd = statistics.stdev(x_axis)
-#         y_axis = norm.pdf(x_axis, mean, sd)
-#         value = np.interp(input, x_axis,y_axis)
         value = calculate_probability(input, mean, sd)
         data[str(i)+str(col)] = value
 
