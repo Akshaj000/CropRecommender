@@ -10,10 +10,15 @@ Features : N, P, K, temperature, Humidity, pH and  rainfall.
 
 This is also for me to get a brief idea for my first semester maths project which is on precision farming. I will add the link to the repository here. 
 
+
 Reference : 
 
 https://www.kaggle.com/patelris/crop-prediction-analysis-w-classification \
 https://www.kaggle.com/atharvaingle/crop-recommendation-dataset
 
 ---
+
+Also i have managed to make a mini naive bayes algorithm from scratch here https://github.com/Akshaj000/NaiveBayesClassifier_CropRecommender/blob/master/CustomNaiveBayesbook.ipynb.
+
+
 ---
