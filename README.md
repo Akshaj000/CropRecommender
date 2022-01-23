@@ -20,7 +20,8 @@ Reference :
 
 https://www.askpython.com/python/normal-distribution \
 https://www.kaggle.com/patelris/crop-prediction-analysis-w-classification \
-https://www.kaggle.com/atharvaingle/crop-recommendation-dataset
+https://www.kaggle.com/atharvaingle/crop-recommendation-dataset \
+https://www.youtube.com/c/joshstarmer
 
 ---
 
