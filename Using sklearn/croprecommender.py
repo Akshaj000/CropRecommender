@@ -21,13 +21,14 @@ This program gives the most suitable crop from 'rice' 'maize' 'chickpea' 'kidney
 print()
 
 print("Enter Features : ")
-Ka = pyip.inputInt("K : ")
 Ni = pyip.inputInt("N : ")
 Po = pyip.inputInt("P : ")
+Ka = pyip.inputInt("K : ")
+temperature = pyip.inputFloat("Temperature : ")
 humidity = pyip.inputFloat("Humidity : ")
 ph = pyip.inputFloat("pH : ")
 rainfall = pyip.inputFloat("Rainfall : ")
-temperature = pyip.inputFloat("Temperature : ")
+
 
 features = cropdata[['N', 'P','K','temperature', 'humidity', 'ph', 'rainfall']]
 target = cropdata['label']

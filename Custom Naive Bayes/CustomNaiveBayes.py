@@ -6,9 +6,9 @@ from math import exp, sqrt, pi, log
 from scipy.stats import norm
 import statistics
 
-def calculate_probability(x, mean, stdev):
-    exponent = exp(-((x-mean)**2 / (2 * stdev**2 )))
-    return (1 / (sqrt(2 * pi) * stdev)) * exponent
+def calculate_probability(x,mean,sd):
+    exponent = exp(-0.5*((x-mean)/sd)**2)
+    return ((1/(sd*sqrt(2*pi)))*exponent)
 
 read = pd.read_csv("Crop_recommendation.csv")
 
