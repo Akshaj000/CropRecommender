@@ -1,8 +1,8 @@
 # CROP RECOMMENDER
 ---
 
-<img src="./GNB.jpg" >
-
+![Screenshot from 2022-01-29 23-36-00](https://user-images.githubusercontent.com/83636572/151672218-fbbe6d09-74ac-4315-9660-f79fdb8a05d3.png)
+![Screenshot from 2022-01-29 23-36-06](https://user-images.githubusercontent.com/83636572/151672224-0f638aed-e186-4850-9c9a-b9eca2ece80e.png)
 ---
 
 This repository is for me to get familar with the implementation part of machine learning algorithms.
