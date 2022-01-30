@@ -1,9 +1,8 @@
 # CROP RECOMMENDER
 ---
+
 ![Screenshot from 2022-01-30 23-24-06](https://user-images.githubusercontent.com/83636572/151711244-1592a9fa-fff3-4f25-89cf-4d4d6b756ce2.png)
-
 ![Screenshot from 2022-01-30 23-24-09](https://user-images.githubusercontent.com/83636572/151711248-fbca1874-cb7e-4814-aed9-8048d496d3e5.png)
-
 
 ---
 
